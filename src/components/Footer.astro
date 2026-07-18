@@ -1,0 +1,59 @@
+---
+const currentYear = new Date().getFullYear();
+---
+<footer class="bg-[#050507] text-neutral-400 border-t border-neutral-900/60 py-16 px-6 sm:px-12 lg:px-16 text-center select-none">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
+    
+    <!-- Logo & Slogan Column -->
+    <div class="flex flex-col items-start gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-neutral-900 border border-neutral-800 flex items-center justify-center p-2 shrink-0">
+          <img src="/favicon.svg" alt="Secura Logo" class="w-7 h-7 object-contain" />
+        </div>
+        <div class="flex flex-col text-left">
+          <span class="text-base font-black tracking-widest text-white uppercase font-mono">SECURA</span>
+          <span class="text-[10px] text-neutral-500 font-mono tracking-wide uppercase">ZERO-KNOWLEDGE SECURITY SUITE</span>
+        </div>
+      </div>
+      <p class="text-[11px] text-neutral-500 max-w-xs text-left leading-relaxed">
+        Secura delivers high-performance, private-first utilities running on local cryptographic containers. Manage records with peace of mind.
+      </p>
+      <div class="text-[10px] text-neutral-600 font-mono text-left mt-2">
+        <div>&copy; {currentYear} SECURA INC. ALL RIGHTS RESERVED.</div>
+        <div class="text-neutral-700 mt-1 uppercase tracking-wider">SECURED BY MULTI-FACTOR CRYPTOGRAPHY</div>
+      </div>
+    </div>
+    
+    <!-- Multi-column sitemap links -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 md:gap-12 lg:gap-16 w-full md:w-auto text-left">
+      <div class="flex flex-col gap-3">
+        <span class="text-neutral-200 text-xs font-bold uppercase tracking-wider">Workspaces</span>
+        <a href="/password-manager" class="hover:text-cyan-400 text-[11px] transition-colors">Password Vault</a>
+        <a href="/invoice-generator" class="hover:text-cyan-400 text-[11px] transition-colors">Invoice Generator</a>
+        <a href="/budget-planner" class="hover:text-cyan-400 text-[11px] transition-colors">Budget Planner</a>
+        <a href="/expense-tracker" class="hover:text-cyan-400 text-[11px] transition-colors">Expense Tracker</a>
+        <a href="/expiry-reminder" class="hover:text-cyan-400 text-[11px] transition-colors">Expiry Reminder</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-neutral-200 text-xs font-bold uppercase tracking-wider">Control</span>
+        <a href="/dashboard" class="hover:text-cyan-400 text-[11px] transition-colors">Unified Portal</a>
+        <a href="/admin" class="hover:text-cyan-400 text-[11px] transition-colors">Admin Panel</a>
+        <a href="/login" class="hover:text-cyan-400 text-[11px] transition-colors">Login Session</a>
+        <a href="/register" class="hover:text-cyan-400 text-[11px] transition-colors">Register Profile</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-neutral-200 text-xs font-bold uppercase tracking-wider">Company</span>
+        <a href="/pricing" class="hover:text-cyan-400 text-[11px] transition-colors">Pricing Structure</a>
+        <a href="/about" class="hover:text-cyan-400 text-[11px] transition-colors">About Us</a>
+        <a href="/contact" class="hover:text-cyan-400 text-[11px] transition-colors">Contact Desk</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-neutral-200 text-xs font-bold uppercase tracking-wider">Security</span>
+        <a href="/privacy" class="hover:text-cyan-400 text-[11px] transition-colors">Privacy Policy</a>
+        <a href="/terms" class="hover:text-cyan-400 text-[11px] transition-colors">Terms of Service</a>
+        <a href="/disclaimer" class="hover:text-cyan-400 text-[11px] transition-colors">Service Disclaimer</a>
+        <a href="/encrypted-policy" class="hover:text-cyan-400 text-[11px] transition-colors">Encryption Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>

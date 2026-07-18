@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SaaSLayout from '../components/SaaSLayout';
+import AdminDashboardApp from '../components/AdminDashboardApp';
+---
+
+<Layout title="Compliance Hub • Secura Administration">
+	<SaaSLayout activeModule="Admin Console" requireAdmin={true} client:load>
+		<AdminDashboardApp client:load />
+	</SaaSLayout>
+</Layout>

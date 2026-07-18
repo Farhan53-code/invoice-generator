@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import RegisterApp from '../components/RegisterApp';
+---
+
+<Layout title="Sign Up • Create Secura Account">
+  <div class="min-h-screen bg-[#050507] text-neutral-200 selection:bg-cyan-500 selection:text-black flex flex-col justify-between">
+    <Header />
+    <div class="flex-1 relative flex items-center justify-center">
+      <RegisterApp client:load />
+    </div>
+    <Footer />
+  </div>
+</Layout>

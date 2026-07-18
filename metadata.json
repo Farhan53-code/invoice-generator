@@ -1,0 +1,8 @@
+{
+  "name": "Secura • LifeHub AI",
+  "description": "Secura is the ultimate premium SaaS productivity and security suite (LifeHub AI), featuring a Zero-Knowledge Password Manager, Freelance Invoice Generator, Budget Planner, Expense Tracker, and Document Expiry Reminder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
